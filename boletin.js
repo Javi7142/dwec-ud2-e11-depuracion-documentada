@@ -13,7 +13,7 @@ const alumnos = [
 let sumaMedias = 0;
 let presentados = 0;
 let aprobados = 0;
-let suspensos = [];
+const suspensos = [];
 
 console.log('📋 Boletín de notas');
 
