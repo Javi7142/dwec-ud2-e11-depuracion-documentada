@@ -17,12 +17,12 @@ let suspensos = [];
 
 console.log('📋 Boletín de notas');
 
-for (var i = 0; i < alumnos.length; i++) {
+for (let i = 0; i < alumnos.length; i++) {
   const alumno = alumnos[i];
   let suma = 0;
   let noPresentado = false;
 
-  for (var i = 0; i < alumno.notas.length; i++) {
+  for (let i = 0; i < alumno.notas.length; i++) {
     const texto = alumno.notas[i];
     const nota = Number(texto);
     if (!nota) {
