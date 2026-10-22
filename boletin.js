@@ -25,7 +25,7 @@ for (let i = 0; i < alumnos.length; i++) {
   for (let i = 0; i < alumno.notas.length; i++) {
     const texto = alumno.notas[i];
     const nota = Number(texto);
-    if (!nota) {
+    if (texto.trim() === '') {
       noPresentado = true;
     }
     suma += nota;
