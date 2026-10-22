@@ -70,6 +70,6 @@ console.log(`Media del grupo: ${(sumaMedias / presentados).toFixed(2)}`);
 console.log(`Mejor media: ${mejorAlumno} (${mejorMedia.toFixed(2)})`);
 
 console.log('Suspensos:');
-for (let i = 0; i <= suspensos.length; i++) {
+for (let i = 0; i < suspensos.length; i++) {
   console.log(`- ${suspensos[i]}`);
 }
