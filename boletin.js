@@ -14,6 +14,8 @@ let sumaMedias = 0;
 let presentados = 0;
 let aprobados = 0;
 const suspensos = [];
+let mejorMedia = 0;
+let mejorAlumno = '';
 
 console.log('📋 Boletín de notas');
 
@@ -52,8 +54,6 @@ for (let i = 0; i < alumnos.length; i++) {
     aprobados++;
   }
 
-  let mejorMedia = 0;
-  let mejorAlumno = '';
   if (media > mejorMedia) {
     mejorMedia = media;
     mejorAlumno = alumno.nombre;
