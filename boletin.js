@@ -28,7 +28,7 @@ for (let i = 0; i < alumnos.length; i++) {
     if (!nota) {
       noPresentado = true;
     }
-    suma += texto;
+    suma += nota;
   }
 
   if (noPresentado) {
